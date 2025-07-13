@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  height: auto;
+}
+body {
+  background-image: linear-gradient(to bottom right, #ffcbc4, #bf92e4);
+  background-repeat: no-repeat;
+}
+
+/* index.html section start  */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+header h1 {
+  padding: 10px;
+  font-size: 46px;
+}
+header p {
+  font-family: sans-serif;
+  padding: 10px;
+}
+header input {
+  width: 420px;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+}
+#img-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+#img-container img {
+  height: 250px;
+  width: 200px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin: 10px;
+}
+/* index.html section end  */
+/* nav section start  */
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  padding: 20px;
+  height: 50px;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+}
+/* nav section end  */
+
+/* login & signup section start  */
+#signup-box,
+#login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#container {
+  padding: 50px;
+  width: 420px;
+  color: #fff;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+#container h1 {
+  font-size: 36px;
+  text-align: center;
+}
+#container .input-box {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 25px 10px 10px;
+  margin: 10px 0px;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12-18 */
+  color: #fff;
+}
+#container .btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+  padding: 10px 25px 10px 10px;
+  border-radius: 20px;
+  margin: 10px 0px;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+/* login & signup section end  */
+
+/* about-us section start  */
+#about-us {
+  width: 100%;
+}
+#about-us img {
+  float: right;
+}
+#about-us p {
+  line-height: 2rem;
+  font-size: 20px;
+  font-size: 10;
+  margin: 10px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+#about-us h1 {
+  padding: 20px 10px;
+  margin: 10px;
+}
+#about-us button {
+  margin: 20px;
+  background-color: #ffcbc4;
+  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+}
+/* about-us section start  */
+
+/* footer section start  */
+footer {
+  background-color: #bf92e4;
+  color: #fff;
+  padding: 10px;
+}
+footer #footer-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+}
+footer a {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+footer p {
+  width: 75%;
+}
+footer #footer-text {
+  text-align: center;
+}
+/* footer section end  */
