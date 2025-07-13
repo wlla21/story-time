@@ -8,8 +8,10 @@ html {
   height: auto;
 }
 body {
-  background-image: linear-gradient(to bottom right, #ffcbc4, #bf92e4);
+  background-image: linear-gradient(to bottom right, #4adede, #1e2f97);
   background-repeat: no-repeat;
+  font-family: "roboto", sans-serif;
+  font-weight: 100;
 }
 
 /* index.html section start  */
@@ -64,13 +66,18 @@ nav {
   flex-direction: row;
   background-color: transparent;
   padding: 20px;
-  height: 50px;
+  height: auto;
   justify-content: space-evenly;
+  position: sticky;
+  background-color: #1e2f97;
+  top: 0px;
+  z-index: 999;
 }
 a {
   text-decoration: none;
   padding: 10px;
   font-family: sans-serif;
+  color: #fff;
 }
 /* nav section end  */
 
@@ -81,6 +88,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 #container {
   padding: 50px;
@@ -152,25 +160,26 @@ a {
 }
 #about-us button {
   margin: 20px;
-  background-color: #ffcbc4;
+  background-color: #1e2f97;
   border: none;
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
   border-radius: 5px;
+  color: #fff;
 }
 /* about-us section start  */
 
 /* footer section start  */
 footer {
-  background-color: #bf92e4;
+  background-color: #1e2f97;
   color: #fff;
   padding: 10px;
 }
 footer #footer-box {
   width: 100%;
   display: grid;
-  grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
   padding: 10px;
 }
 footer a {
