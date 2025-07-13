@@ -2,7 +2,6 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  position: relative;
 }
 html {
   scroll-behavior: smooth;
@@ -13,6 +12,7 @@ body {
   background-repeat: no-repeat;
   font-family: "roboto", sans-serif;
   font-weight: 100;
+  width: 100%;
 }
 
 /* index.html section start  */
