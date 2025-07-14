@@ -178,7 +178,7 @@ footer {
 footer #footer-box {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
   padding: 10px;
 }
@@ -193,4 +193,13 @@ footer p {
 footer #footer-text {
   text-align: center;
 }
+
+footer #fix {
+  padding: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: #4adede;
+}
+
 /* footer section end  */
