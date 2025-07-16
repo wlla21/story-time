@@ -178,7 +178,7 @@ footer {
 footer #footer-box {
   width: 100%;
   display: grid;
-  grid-template-columns: 5fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
   padding: 10px;
 }
@@ -191,7 +191,7 @@ footer p {
   width: 75%;
 }
 footer #footer-text {
-  text-align: center;
+  text-align: left;
 }
 
 footer #fix {
